@@ -43,6 +43,9 @@ http://localhost:5173
 ### Backend Setup (Node.js + Express)
 
 ```bash
+add .env file in backend 
+port=5001
+MONGO_URI=mongodb+srv://username:password@cluster0.xxxxx.mongodb.net/yourDatabaseName?retryWrites=true&w=majority
 cd TaskBoard/backend
 npm install express mongoose cors dotenv
 npm start
